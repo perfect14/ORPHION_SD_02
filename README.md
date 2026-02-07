@@ -1,20 +1,83 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-
-# ORPHION_SD_02
+🎯 Number Guessing Game
+📌 Project Description
 
 The Number Guessing Game is an interactive program where the system generates a random number and the player tries to guess it.
+
+After each guess, the system provides feedback:
+
+Too High 📈
+
+Too Low 📉
+
+The game continues until the correct number is guessed, while tracking the total number of attempts made by the user.
+
+This project demonstrates understanding of random number generation, loops, and conditional logic.
+
+🚀 Features
+
+✅ Random number generation
+✅ Continuous game loop until correct guess
+✅ Hint system (Too High / Too Low)
+✅ Attempt counter
+✅ Input handling & validation
+
+🧠 Skills Practiced
+
+Random number generation
+
+Loops
+
+Conditionals
+
+User input handling
+
+Basic game logic
+
+🛠 Tech Used
+
+React (for UI)
+
+JavaScript / TypeScript
+
+CSS / Tailwind (if used)
+
+How to Run
+
+Clone the repository:
+
+git clone https://github.com/perfect14/ORPHION_SD_02.git
+
+
+Navigate into the project folder:
+
+cd ORPHION_SD_02
+
+
+Install dependencies:
+
+npm install
+
+
+Start the development server:
+
+npm run dev
+
+🎮 How to Play
+
+Enter your guess into the input field.
+
+Click Submit Guess.
+
+Read the hint provided by the system.
+
+Continue until you guess the correct number.
+
+Try to win in the least number of attempts 😉
+
+📷 Screenshots
+
+### Game Start
+![Game Start](src/assets/game-start.png)
+
+### Game Over
+![Correct Guess](src/assets/game-over.png)
